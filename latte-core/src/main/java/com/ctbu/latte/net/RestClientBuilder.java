@@ -6,7 +6,7 @@ import com.ctbu.latte.net.callback.IError;
 import com.ctbu.latte.net.callback.IFailure;
 import com.ctbu.latte.net.callback.IRequest;
 import com.ctbu.latte.net.callback.ISuccess;
-import com.ctbu.latte.ui.LoaderStyle;
+import com.ctbu.latte.ui.loader.LoaderStyle;
 
 import java.io.File;
 import java.util.WeakHashMap;

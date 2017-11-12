@@ -3,7 +3,7 @@ package com.ctbu.latte.net.rx;
 import android.content.Context;
 
 import com.ctbu.latte.net.RestCreator;
-import com.ctbu.latte.ui.LoaderStyle;
+import com.ctbu.latte.ui.loader.LoaderStyle;
 
 import java.io.File;
 import java.util.WeakHashMap;

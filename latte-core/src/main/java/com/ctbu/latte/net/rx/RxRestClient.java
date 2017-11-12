@@ -4,13 +4,8 @@ import android.content.Context;
 
 import com.ctbu.latte.net.HttpMethod;
 import com.ctbu.latte.net.RestCreator;
-import com.ctbu.latte.net.callback.IError;
-import com.ctbu.latte.net.callback.IFailure;
-import com.ctbu.latte.net.callback.IRequest;
-import com.ctbu.latte.net.callback.ISuccess;
-import com.ctbu.latte.net.callback.RequestCallbacks;
-import com.ctbu.latte.ui.LatteLoader;
-import com.ctbu.latte.ui.LoaderStyle;
+import com.ctbu.latte.ui.loader.LatteLoader;
+import com.ctbu.latte.ui.loader.LoaderStyle;
 
 import java.io.File;
 import java.util.WeakHashMap;
@@ -20,7 +15,6 @@ import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
-import retrofit2.Callback;
 
 /**
  * Created by chenting on 2017/11/8.

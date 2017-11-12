@@ -2,8 +2,8 @@ package com.ctbu.latte.net.callback;
 
 import android.os.Handler;
 
-import com.ctbu.latte.ui.LatteLoader;
-import com.ctbu.latte.ui.LoaderStyle;
+import com.ctbu.latte.ui.loader.LatteLoader;
+import com.ctbu.latte.ui.loader.LoaderStyle;
 
 
 import retrofit2.Call;
