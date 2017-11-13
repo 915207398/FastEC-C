@@ -12,6 +12,8 @@ import com.ctbu.latte.delegates.LatteDelegate;
 import com.ctbu.latte.ec.icon.FontEcModule;
 import com.ctbu.latte.ec.launcher.LauncherDelegate;
 import com.ctbu.latte.ec.launcher.LauncherScrollDelegate;
+import com.ctbu.latte.ec.sign.SignInDelegate;
+import com.ctbu.latte.ec.sign.SignUpDelegate;
 import com.joanzapata.iconify.Iconify;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
@@ -28,7 +30,7 @@ public class ExampleActivity extends ProxyActivity {
 
     @Override
     public LatteDelegate setRootDelegate() {
-        return new LauncherDelegate();
+        return new SignInDelegate();
     }
 
 }

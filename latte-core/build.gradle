@@ -61,5 +61,7 @@ dependencies {
     api 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
     //Json依赖
     api 'com.alibaba:fastjson:1.2.40'
+    //Log
+    api 'com.orhanobut:logger:2.1.1'
 
 }
